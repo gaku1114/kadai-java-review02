@@ -6,7 +6,7 @@ public class Review01 {
         int i = tax(price);
         int total = price + i;
         System.out.println
-            (price + "円の商品の税込価格は" + total + "円(消費税は" + i + "円)です" );
+            (price + "円の商品の税込価格は" + total + "円(消費税は" + i + "円)です。" );
     }
 
     public static int tax(int price) {
